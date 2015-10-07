@@ -1,34 +1,51 @@
-#one{
-border-radius:50%;
-width:200px;
-height:200px;
-background:blue;
-position:fixed;
-top:150px;
-left:250px;
+#wrapper{
+	width:1024px;
+	height:900px;
+	background:transparent;
+	margin:0 auto;
 }
-#two{
-border-radius:50%;
-width:200px;
-height:200px;
-background:blue;
-position:fixed;
-top:150px;
-right:250px;
+#header{
+	width:100%;
+	height:15%;
+	background:#D8F6CE;
+	text-align: center;
 }
-#three{
-width:100px;
-height:100px;
-background:yellow;
+
+#main{
+	width:100%;
+	height:69%;
+	background:#D8F6CE;
+	float:left;
+}
+#footer{
+	width:100%;
+	height:15;
+	text-align:center;
+}
+table{
+background:#F5F6CE;
 position:absolute;
-top:400px;
-right:465px;
+bottom:65px;
+left:440px;	
 }
-#four{
-width:500px;
-height:100px;
-background:red;
-position:fixed;
-top:575px;
-right:275px;	
+#top{
+position:absolute;
+top:50px;
+left:300px;
+}h1,h2,h3{
+	text-align:center;
+}
+p.normal{
+	font-weight: normal;
+	font-size:small;
+	text-align:center;
+
+}
+span{
+	font-weight: bold;
+}
+img{
+	position:absolute;
+	top:21px;
+	left:120px
 }
